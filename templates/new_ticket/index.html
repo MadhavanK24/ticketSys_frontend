@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>New Ticket</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <h2>Dashboard</h2>
+      <ul>
+        <li>Email</li>
+        <li class="active">Inbound Call</li>
+      </ul>
+    </div>
+
+    <div class="main-content">
+      <h1>New Ticket</h1>
+
+      <div class="tabs">
+        <button class="active">📞 Received Call</button>
+        <button>📤 Outbound Call</button>
+        <button>✉️ Send Email</button>
+      </div>
+
+      <form id="ticketForm">
+        <label>Title *</label>
+        <input type="text" placeholder="Enter ticket title" required />
+
+        <label>Customer *</label>
+        <input type="email" placeholder="Enter customer email" required />
+
+        <label>Text</label>
+        <textarea placeholder="Describe the issue"></textarea>
+        <a href="#">select attachment...</a>
+
+        <label>Owner</label>
+        <input type="text" placeholder="Owner name" />
+
+        <label>State *</label>
+        <select>
+          <option>new</option>
+          <option>open</option>
+          <option>pending close</option>
+          <option>pending reminder</option>
+          <option>closed</option>
+        </select>
+
+        <label>Priority *</label>
+        <select>
+          <option>1 high</option>
+          <option selected>2 normal</option>
+          <option>3 low</option>
+        </select>
+
+        <label>Tags</label>
+        <input type="text" placeholder="Add tags" />
+
+        <button type="submit">Create</button>
+      </form>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
