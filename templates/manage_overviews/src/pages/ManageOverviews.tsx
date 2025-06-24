@@ -11,6 +11,7 @@ const ManageOverviews = () => {
           <li>Users</li>
           <li className="active">Overviews</li>
           <li>Roles</li>
+          <li>Organizations</li>
           <li>Templates</li>
         </ul>
       </aside>

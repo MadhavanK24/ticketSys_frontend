@@ -11,7 +11,7 @@ const data = [
 const OverviewTable = () => {
   return (
     <div className="table-container">
-      <h2>Overview Management</h2>
+      <h1>Overview Management</h1>
       <table>
         <thead>
           <tr>
