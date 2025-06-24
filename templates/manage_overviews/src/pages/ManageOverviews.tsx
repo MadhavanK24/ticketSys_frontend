@@ -1,4 +1,4 @@
-import React from 'react';
+import 'react';
 import OverviewTable from '../components/OverviewTable';
 import '../styles/manage.css';
 
