@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to bottom, #35303c, #18053b); /* purple gradient */  
+  background: linear-gradient(to bottom, #4f545c, #221932); /* purple gradient */
   color: rgb(255, 255, 255);
 }
 
@@ -18,7 +18,7 @@ body {
 
 .sidebar {
   width: 220px;
-  background: linear-gradient(to left, #5f2ea8, #331767); /* purple gradient */
+  background: linear-gradient(to bottom, #1d1e1e, #221932); /* purple gradient */
   color: white;
   padding: 20px;
   height: 200vh;
@@ -42,8 +42,8 @@ body {
 
 .sidebar li.active,
 .sidebar li:hover {
-  background-color: #facc15;
-  color: #331767;
+  background-color: #60b8af;
+  color: #0b0b0c;
 }
 
 .main-content {
@@ -59,15 +59,15 @@ table {
   width: 100%;
   border-collapse: collapse;
   border-radius: 10px;
-  background-color: #ffffff;
+  background-color: #908d8d;
 }
 
 th, td {
   padding: 12px 15px;
-  border-bottom: 1px solid #4e2178;
+  border-bottom: 1px solid;
   text-align: left;
 }
 
 th {
-  background-color: #9834db;
+  background-color:#3a5b57 ;
 }
