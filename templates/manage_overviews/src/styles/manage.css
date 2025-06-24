@@ -1,13 +1,19 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to bottom, #5a25aa, #18053b); /* purple gradient */  
+  background: linear-gradient(to bottom, #35303c, #18053b); /* purple gradient */  
   color: rgb(255, 255, 255);
 }
 
 .container {
   display: flex;
   height: 100vh;
+}
+.sidebar ul li a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 8px 0;
 }
 
 .sidebar {

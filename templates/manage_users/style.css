@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to bottom, #5a25aa, #18053b); /* purple gradient */
+  background: linear-gradient(to bottom, #4f545c, #221932); /* purple gradient */
   color: #ffffff;
 }
 
@@ -11,7 +11,7 @@ body {
 
 .sidebar {
   width: 220px;
-  background: linear-gradient(to left, #5f2ea8, #331767); /* purple gradient */
+  background: linear-gradient(to left, #4f545c, #221932); /* purple gradient */
   color: white;
   padding: 20px;
   height: 100vh;
@@ -35,7 +35,7 @@ body {
 
 .sidebar ul li.active,
 .sidebar ul li:hover {
-  background-color: #facc15;
+  background-color: #60b8af;
   color: #331767;
 }
 
@@ -51,8 +51,8 @@ body {
 }
 
 .new-user-btn {
-  background-color: #972ecc;
-  color: white;
+  background-color: #60b8af;
+  color: rgb(37, 23, 60);
   padding: 10px 15px;
   border: none;
   border-radius: 4px;
@@ -81,13 +81,13 @@ body {
   padding: 8px 12px;
   border: none;
   border-radius: 4px;
-  background-color: #facc15;
+  background-color: #60b8af;
   color: #331767;
   cursor: pointer;
 }
 
 .filter.active {
-  background-color: #facc15;
+  background-color: #60b8af;
   color: rgb(53, 19, 75);
 }
 
@@ -107,8 +107,14 @@ body {
   text-align: left;
   border-bottom: 1px solid #39155e;
 }
+.sidebar ul li a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 8px 0;
+}
 
 .user-table th {
-  background-color: #9834db;
+  background-color: #508f93;
   color: rgb(255, 255, 255);
 }
