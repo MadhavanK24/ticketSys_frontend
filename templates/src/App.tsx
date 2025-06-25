@@ -1,18 +1,18 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import UsersPage from '../manage_users/UsersPage/UsersPage';
-import OverviewsPage from '../manage_overviews/OverviewsPage';
+import { Routes, Route } from 'react-router-dom';
+import Homepage from './pages/HomePage';
+import SignUp from './pages/SignUp';
+import ManageUsers from './pages/ManageUsers';
+import ManageOverviews from './pages/ManageOverviews';
 
-const App = () => {
+function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/users" element={<UsersPage />} />
-        <Route path="/overviews" element={<OverviewsPage />} />
-        <Route path="*" element={<UsersPage />} />
-      </Routes>
-    </Router>
+    <Routes>
+      <Route path="/" element={<Homepage />} />
+      <Route path="/signup" element={<SignUp />} />
+      <Route path="/manage_users" element={<ManageUsers />} />
+      <Route path="/manage_overviews" element={<ManageOverviews />} />
+    </Routes>
   );
-};
+}
 
 export default App;

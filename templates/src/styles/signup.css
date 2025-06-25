@@ -1,0 +1,65 @@
+/* SignUp Page CSS */
+.signup-page {
+  height: 150vh;
+  background: linear-gradient(to left, #1b1e22, #221932);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  color: white;
+  font-family: sans-serif;
+}
+
+.signup-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.signup-box {
+  background-color: #332b42;
+  padding: 2rem 3rem;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.signup-icon {
+  height: 60px;
+  margin-bottom: 1rem;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.signup-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: #fff;
+}
+
+.signup-form input {
+  margin-top: 0.25rem;
+  background-color: #bab7c0;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-size: 1rem;
+}
+
+.signup-submit {
+  margin-top: 2rem;
+  background-color: #60b8af;
+  color: #221932;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}

@@ -1,0 +1,94 @@
+/* Home Page CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+.app {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(to left, #1b1e22, #221932);
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(to bottom, #4f545c, #221932);
+}
+
+.logo {
+  height: 40px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-btn {
+  background-color: #221932;
+  color: #60b8af;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+.nav-btn:hover {
+  transform: scale(1.05);
+}
+
+.signup-btn,
+.action-btn {
+  background-color: #60b8af;
+  color: #221932;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.signup-btn:hover,
+.action-btn:hover {
+  transform: scale(1.05);
+}
+
+.main-content {
+  text-align: center;
+  margin-top: 7rem;
+  padding: 0 1rem;
+  flex: 1;
+}
+
+.subheading {
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.heading {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 800;
+  margin-bottom: 4rem;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
