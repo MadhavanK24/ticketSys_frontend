@@ -8,7 +8,7 @@ const ManageOverviews = () => {
       <aside className="sidebar">
         <h2>Manage</h2>
         <ul>
-          <li><a href="/manage_users/index.html">Users</a></li>
+          <li><a href="../manage_users/index.html">Users</a></li>
           <li className="active">Overviews</li>
           <li>Roles</li>
           <li>Organizations</li>
