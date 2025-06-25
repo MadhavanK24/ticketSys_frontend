@@ -1,34 +1,34 @@
-import "react";
-import { useNavigate, useLocation } from "react-router-dom";
-import "../styles/manage.css";
+import { NavLink } from 'react-router-dom';
+import '../styles/manage.css';
 
 const Sidebar = () => {
-  const navigate = useNavigate();
-  const location = useLocation();
-
-  const isActive = (path: string) => location.pathname === path;
+  const activeStyle = ({ isActive }: { isActive: boolean }) =>
+    isActive ? 'active' : '';
 
   return (
-    <aside className="sidebar">
+    <div className="sidebar">
       <h2>Manage</h2>
       <ul>
-        <li
-          className={isActive("/manage_users") ? "active" : ""}
-          onClick={() => navigate("/manage_users")}
-        >
-          Users
+        <li>
+          <NavLink to="/manage_users" className={activeStyle}>Users</NavLink>
         </li>
-        <li
-          className={isActive("/manage_overviews") ? "active" : ""}
-          onClick={() => navigate("/manage_overviews")}
-        >
-          Overviews
+        <li>
+          <NavLink to="/manage_overviews" className={activeStyle}>Overviews</NavLink>
         </li>
-        <li>Roles</li>
-        <li>Organizations</li>
-        <li>Templates</li>
+        <li>
+          <NavLink to="/manage_roles" className={activeStyle}>Roles</NavLink>
+        </li>
+        <li>
+          <NavLink to="/manage_organizations" className={activeStyle}>Organizations</NavLink>
+        </li>
+        <li>
+          <NavLink to="/manage_templates" className={activeStyle}>Templates</NavLink>
+        </li>
+        <li>
+          <NavLink to="/new_ticket" className={activeStyle}>🎫 Ticket</NavLink>
+        </li>
       </ul>
-    </aside>
+    </div>
   );
 };
 

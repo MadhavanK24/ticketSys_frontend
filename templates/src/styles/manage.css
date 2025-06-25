@@ -145,3 +145,43 @@ body {
 .table-container th {
   background-color: #529a93;
 }
+.ticket-buttons {
+
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.ticket-buttons .btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #508f93;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.ticket-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-width: 900px;
+}
+
+.ticket-form input,
+.ticket-form textarea,
+.ticket-form select {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  background-color: #d7ddeb;
+}
+
+.attachment-link {
+  color: blue;
+  font-size: 14px;
+  text-decoration: underline;
+}
