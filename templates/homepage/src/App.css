@@ -14,7 +14,7 @@ html, body, #root {
 .app {
   min-height: 100vh;
   width: 100%;
-  background: linear-gradient(to bottom, #4c1d95, #170734); /* purple gradient */
+  background: linear-gradient(to left, #1b1e22, #221932);
   color: white;
   font-family: sans-serif;
   display: flex;
@@ -27,7 +27,7 @@ html, body, #root {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background: linear-gradient(to bottom, #4c1d95, #2e1065); /* purple gradient */
+  background: linear-gradient(to bottom, #4f545c, #221932) /* purple gradient */
 }
 
 .logo {
@@ -41,8 +41,8 @@ html, body, #root {
 }
 
 .nav-btn {
-  background-color: #7c3aed; /* purple-500 */
-  color: #facc15;            /* yellow-300 */
+  background-color: #221932; /* purple-500 */
+  color: #60b8af;           /* yellow-300 */
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 12px;
@@ -56,8 +56,8 @@ html, body, #root {
 }
 
 .signup-btn {
-  background-color: #facc15; /* yellow-400 */
-  color: #5b21b6;            /* purple-900 */
+  background-color: #60b8af; /* yellow-400 */
+  color: #221932;            /* purple-900 */
   padding: 0.5rem 1.5rem;
   border: none;
   border-radius: 12px;
@@ -99,8 +99,8 @@ html, body, #root {
 }
 
 .action-btn {
-  background-color: #facc15; /* yellow-400 */
-  color: #5b21b6;            /* purple-900 */
+  background-color: #60b8af; /* yellow-400 */
+  color: #221932;            /* purple-900 */
   padding: 1rem 2rem;
   font-size: 1.125rem;
   font-weight: 500;

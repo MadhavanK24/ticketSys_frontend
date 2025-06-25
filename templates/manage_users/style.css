@@ -82,7 +82,7 @@ body#60b8af {
   border: none;
   border-radius: 4px;
   background-color: rgb(0, 0, 0);
-  color: #331767;
+  color: #150f1f;
   cursor: pointer;
 }
 
@@ -105,7 +105,7 @@ body#60b8af {
 .user-table td {
   padding: 12px 15px;
   text-align: left;
-  border-bottom: 1px solid #39155e;
+  border-bottom: 1px solid #201927;
 }
 .sidebar ul li a {
   text-decoration: none;
