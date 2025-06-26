@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import '../styles/SignUp.css';
+import logo from '../assets/Logo.png';
 
 export default function SignUpPage() {
   const navigate = useNavigate();
@@ -7,7 +8,7 @@ export default function SignUpPage() {
     <div className="signup-page">
       <h1 className="signup-title">Sign Up to Raise</h1>
       <div className="signup-box">
-        <img src="/logo.png" alt="icon" className="signup-icon" />
+        <img src={logo} alt="Logo" className="logo" />
         <p>Enter your details:</p>
         <form className="signup-form">
           <label>Username:<input type="text" /></label>

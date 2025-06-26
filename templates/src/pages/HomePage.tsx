@@ -1,12 +1,14 @@
 import { useNavigate } from 'react-router-dom';
 import '../styles/homepage.css';
+import logo from '../assets/Logo.png';
+
 
 export default function HomePage() {
   const navigate = useNavigate();
   return (
     <div className="app">
       <nav className="navbar">
-        <img src="/logo.png" alt="Logo" className="logo" />
+        <img src={logo} alt="Logo" className="logo" />
         <div className="nav-links">
           <button className="nav-btn">Home</button>
           <button className="nav-btn">Services</button>
@@ -20,6 +22,7 @@ export default function HomePage() {
 
       <main className="main-content">
         <h2 className="subheading">Wanna solve problems efficiently?</h2>
+        <img src={logo} alt="Logo" className="logo" />
         <h1 className="heading">Welcome to Raise!</h1>
         <div className="action-buttons">
           <button className="action-btn" onClick={() => navigate('/signup')}>
