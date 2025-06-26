@@ -13,11 +13,12 @@ html, body, #root {
 .app {
   min-height: 100vh;
   width: 100%;
-  background: linear-gradient(to left, #1b1e22, #221932);
+  background: linear-gradient(to bottom, #41d399, #1d093c);
   color: white;
   font-family: sans-serif;
   display: flex;
   flex-direction: column;
+  
 }
 
 .navbar {
@@ -25,7 +26,7 @@ html, body, #root {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background: linear-gradient(to bottom, #4f545c, #221932);
+  background: linear-gradient(to left,#1d093c, #41d399, #1d093c);
 }
 
 .logo {
@@ -38,8 +39,8 @@ html, body, #root {
 }
 
 .nav-btn {
-  background-color: #221932;
-  color: #60b8af;
+  background-color: #320447;
+  color: #ffffff;
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 12px;
@@ -53,13 +54,14 @@ html, body, #root {
 
 .signup-btn,
 .action-btn {
-  background-color: #60b8af;
+  background-color: #60b895;
   color: #221932;
   padding: 0.5rem 1.5rem;
   border: none;
   border-radius: 12px;
   font-weight: 500;
   cursor: pointer;
+  font-weight: bold;
   transition: transform 0.2s ease;
 }
 .signup-btn:hover,

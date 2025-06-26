@@ -9,9 +9,9 @@ const NewTicket = () => {
         <h1>New Ticket</h1>
 
         <div className="ticket-buttons">
-          <button className="btn received">📞 Received Call</button>
-          <button className="btn outbound">📤 Outbound Call</button>
-          <button className="btn email">📧 Send Email</button>
+          <button className="btn received"> Received Call</button>
+          <button className="btn outbound"> Outbound Call</button>
+          <button className="btn email">Send Email</button>
         </div>
 
         <form className="ticket-form">

@@ -2,8 +2,8 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to bottom, #4f545c, #221932);
-  color: white;
+  background: linear-gradient(to bottom, #5a616c, #221932);
+  color: rgb(255, 255, 255);
 }
 
 .container {
@@ -13,7 +13,7 @@ body {
 
 .sidebar {
   width: 220px;
-  background: linear-gradient(to right, #4f545c, #221932);
+  background: linear-gradient(to right, #4f9a93,#446778, #303846, #12132a);
   color: white;
   padding: 20px;
   height: 100vh;
@@ -52,6 +52,7 @@ body {
 .main-content {
   flex-grow: 1;
   padding: 30px;
+  
 }
 
 /* USERS TABLE */
@@ -62,8 +63,8 @@ body {
 }
 
 .new-user-btn {
-  background-color: #60b8af;
-  color: rgb(37, 23, 60);
+  background-color: #12132a;
+  color: rgb(255, 255, 255);
   padding: 10px 15px;
   border: none;
   border-radius: 4px;
@@ -79,8 +80,11 @@ body {
 .search-input {
   padding: 8px;
   width: 50%;
+  background-color: #ffffff;
+  color:#12132a;
   border-radius: 4px;
   border: 1px solid #ccc;
+  
 }
 
 .role-filters {
@@ -92,12 +96,12 @@ body {
   padding: 8px 12px;
   border: none;
   border-radius: 4px;
-  background-color: #60b8af;
+  background-color: #6cd6c1;
   color: #150f1f;
   cursor: pointer;
 }
 .filter.active {
-  background-color: #60b8af;
+  background-color: #6ad1c6;
   color: rgb(53, 19, 75);
 }
 
@@ -119,7 +123,7 @@ body {
 }
 
 .user-table th {
-  background-color: #508f93;
+  background-color: #59a39c;
   color: white;
 }
 

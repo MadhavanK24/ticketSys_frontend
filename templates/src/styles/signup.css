@@ -1,12 +1,14 @@
 /* SignUp Page CSS */
 .signup-page {
-  height: 150vh;
-  background: linear-gradient(to left, #1b1e22, #221932);
+  background: linear-gradient(to bottom, #41d399, #1d093c);
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 2rem;
-  color: white;
+  color: #230331;
+  min-height: 100vh;
+  width: 100%;
+  font-weight: bold;
   font-family: sans-serif;
 }
 
@@ -17,7 +19,7 @@
 }
 
 .signup-box {
-  background-color: #332b42;
+  background-color: #230331;
   padding: 2rem 3rem;
   border-radius: 2rem;
   text-align: center;
@@ -44,11 +46,11 @@
 
 .signup-form input {
   margin-top: 0.25rem;
-  background-color: #bab7c0;
+  background-color: #1ba395;
   border: none;
   border-radius: 1rem;
   padding: 0.5rem 1rem;
-  color: white;
+  color: #230331;
   font-size: 1rem;
 }
 

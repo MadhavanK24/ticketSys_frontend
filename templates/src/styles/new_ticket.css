@@ -8,8 +8,8 @@
 .content {
   flex: 1;
   padding: 30px;
-  background: #f0f2f5;
-  color: #333;
+  background: linear-gradient(to bottom,#407c76, #446778, #303846, #221932);
+  color: #ffffff;
   overflow-y: auto;
 }
 
@@ -17,7 +17,7 @@
 .content h1 {
   font-size: 28px;
   margin-bottom: 20px;
-  color: #1a1a1a;
+  color: #ffffff;
 }
 
 /* Action buttons (top) */
@@ -39,15 +39,15 @@
 }
 
 .ticket-buttons .received {
-  background-color: #3b82f6;
+  background-color: #1ba395;
 }
 
 .ticket-buttons .outbound {
-  background-color: #10b981;
+  background-color: #1ba395;
 }
 
 .ticket-buttons .email {
-  background-color: #8b5cf6;
+  background-color: #1ba395;
 }
 
 .ticket-buttons .btn:hover {
@@ -65,7 +65,7 @@
 .ticket-form label {
   font-weight: 600;
   font-size: 14px;
-  color: #444;
+  color: #ffffff;
 }
 
 .ticket-form input,
@@ -94,7 +94,7 @@
 /* Attachment link */
 .attachment-link {
   font-size: 14px;
-  color: #2563eb;
+  color: #1ba395;
   text-decoration: underline;
   cursor: pointer;
 }
