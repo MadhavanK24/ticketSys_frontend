@@ -1,6 +1,6 @@
 /* SignUp Page CSS */
 .signup-page {
-  background: linear-gradient(to bottom, #41d399, #1d093c);
+  background: linear-gradient(to bottom, #4f9a93,#446778, #303846, #12132a);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,7 +46,7 @@
 
 .signup-form input {
   margin-top: 0.25rem;
-  background-color: #1ba395;
+  background-color: #529a93;
   border: none;
   border-radius: 1rem;
   padding: 0.5rem 1rem;
@@ -56,7 +56,7 @@
 
 .signup-submit {
   margin-top: 2rem;
-  background-color: #60b8af;
+  background-color: #529a93;
   color: #221932;
   padding: 0.75rem 2rem;
   font-size: 1rem;

@@ -13,7 +13,7 @@ html, body, #root {
 .app {
   min-height: 100vh;
   width: 100%;
-  background: linear-gradient(to bottom, #41d399, #1d093c);
+  background: linear-gradient(to bottom, #4f9a93,#446778, #303846, #12132a);
   color: white;
   font-family: sans-serif;
   display: flex;
@@ -26,7 +26,7 @@ html, body, #root {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background: linear-gradient(to left,#1d093c, #41d399, #1d093c);
+  background: linear-gradient(to right,#12132a,#446778, #4f9a93,#446778,#12132a);
 }
 
 .logo {
@@ -54,7 +54,7 @@ html, body, #root {
 
 .signup-btn,
 .action-btn {
-  background-color: #60b895;
+  background-color: #529a93;
   color: #221932;
   padding: 0.5rem 1.5rem;
   border: none;
