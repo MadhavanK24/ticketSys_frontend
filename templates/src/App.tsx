@@ -9,6 +9,8 @@ import ManageRoles from './pages/ManageRoles';
 import ManageOrganizations from './pages/ManageOrganizations';
 import ManageTemplates from './pages/ManageTemplates';
 import NewTicket from './pages/NewTicket';
+import Dashboard from './pages/Dashboard';
+
 
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
       <Route path="/signup" element={<SignUp />} />
       <Route path="/signin" element={<SignIn />} />        
       <Route path="/verify-otp" element={<VerifyOTP />} />  
+      <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/manage_users" element={<ManageUsers />} />
       <Route path="/manage_overviews" element={<ManageOverviews />} />
       <Route path="/manage_roles" element={<ManageRoles />} />

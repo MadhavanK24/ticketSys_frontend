@@ -6,7 +6,7 @@ const ManageOverviews = () => {
     <div className="container">
       <Sidebar />
       <main className="content">
-        <h1>📊 Overview Management</h1>
+        <h1>Overview Management</h1>
         <button className="new-user-btn">+ New Overview</button>
 
         <div className="controls">
@@ -15,7 +15,7 @@ const ManageOverviews = () => {
             className="search-input"
             placeholder="Search overviews..."
           />
-        </div>
+       </div>
 
         <table className="user-table">
           <thead>

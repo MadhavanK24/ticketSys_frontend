@@ -1,0 +1,71 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  background: linear-gradient(to bottom, #4f545c, #221932);
+  color: white;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #1e1e2f;
+  padding: 20px;
+}
+
+.sidebar .logo {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #60b8af;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
+.sidebar li:hover,
+.sidebar li.active {
+  background-color: #60b8af;
+  color: #1e1e2f;
+}
+
+.main-content {
+  flex: 1;
+  padding: 30px;
+  overflow-y: auto;
+}
+
+.page-title {
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.dash-card {
+  background-color: #1e1e2f;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.dash-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.dash-card p {
+  color: #ccc;
+  font-size: 14px;
+}
