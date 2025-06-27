@@ -2,9 +2,9 @@ import { useNavigate } from 'react-router-dom';
 import '../styles/homepage.css';
 import logo from '../assets/Logo.png';
 
-
 export default function HomePage() {
   const navigate = useNavigate();
+
   return (
     <div className="app">
       <nav className="navbar">
@@ -28,7 +28,9 @@ export default function HomePage() {
           <button className="action-btn" onClick={() => navigate('/signup')}>
             Sign up
           </button>
-          <button className="action-btn">Sign in</button>
+          <button className="action-btn" onClick={() => navigate('/signin')}>
+            Sign in
+          </button>
         </div>
       </main>
     </div>

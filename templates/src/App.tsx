@@ -1,6 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
 import Homepage from './pages/HomePage';
 import SignUp from './pages/SignUp';
+import SignIn from './pages/SignIn';          
+import VerifyOTP from './pages/VerifyOTP';  
 import ManageUsers from './pages/ManageUsers';
 import ManageOverviews from './pages/ManageOverviews';
 import ManageRoles from './pages/ManageRoles';
@@ -14,6 +16,8 @@ function App() {
     <Routes>
       <Route path="/" element={<Homepage />} />
       <Route path="/signup" element={<SignUp />} />
+      <Route path="/signin" element={<SignIn />} />        
+      <Route path="/verify-otp" element={<VerifyOTP />} />  
       <Route path="/manage_users" element={<ManageUsers />} />
       <Route path="/manage_overviews" element={<ManageOverviews />} />
       <Route path="/manage_roles" element={<ManageRoles />} />
